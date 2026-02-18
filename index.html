@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cjdev-hash | Real Apps, Real Solutions</title>
+    <meta name="description" content="Portfolio of cjdev-hash - Developer of real-use apps focused on problem-solving.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+
+<body data-lang="en">
+    <div class="background-mesh"></div>
+
+    <header>
+        <nav>
+            <div class="logo">CJ.</div>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button id="btn-en" class="active">EN</button>
+                    <span class="divider">/</span>
+                    <button id="btn-pl">PL</button>
+                </div>
+                <div class="links">
+                    <a href="#projects" data-en="Projects" data-pl="Projekty">Projects</a>
+                    <a href="#about" data-en="About" data-pl="O mnie">About</a>
+                    <a href="https://github.com/cjdev-hash" target="_blank" class="cta-btn">GitHub</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="fade-in">
+                <span data-en="Real Apps." data-pl="Prawdziwe Aplikacje.">Real Apps.</span><br>
+                <span class="accent" data-en="Real Solutions." data-pl="Prawdziwe Rozwiązania.">Real Solutions.</span>
+            </h1>
+            <p class="subtitle fade-in-delay"
+                data-en="I build tools that solve daily problems, focusing on utility and seamless user experiences."
+                data-pl="Tworzę narzędzia rozwiązujące codzienne problemy, skupiając się na użyteczności i płynnym doświadczeniu użytkownika.">
+                I build tools that solve daily problems, focusing on utility and seamless user experiences.
+            </p>
+            <div class="scroll-indicator fade-in-delay">
+                <span data-en="Explore Projects" data-pl="Zobacz Projekty">Explore Projects</span>
+                <div class="arrow"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title" data-en="Selected Work" data-pl="Wybrane Projekty">Selected Work</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="card-content">
+                        <span class="tag" data-en="Android App" data-pl="Aplikacja Android">Android App</span>
+                        <h3>SoundFlick</h3>
+                        <p data-en="A motion-triggered soundboard designed for social interactions and fun. Trigger sounds with natural phone gestures."
+                            data-pl="Soundboard sterowany ruchem, stworzony do zabawy i interakcji społecznych. Wyzwalaj dźwięki naturalnymi gestami telefonu.">
+                            A motion-triggered soundboard designed for social interactions and fun. Trigger sounds with
+                            natural phone gestures.
+                        </p>
+                        <div class="project-links">
+                            <span class="status" data-en="Live on Play Store" data-pl="Dostępne w Play Store">Live on
+                                Play Store</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-content">
+                        <span class="tag" data-en="Productivity/Health"
+                            data-pl="Produktywność/Zdrowie">Productivity/Health</span>
+                        <h3>DailyDose</h3>
+                        <p data-en="Streamlined medication tracking to ensure you never miss a dose. Focused on clarity and ease of use."
+                            data-pl="Usprawnione śledzenie leków, abyś nigdy nie przegapił dawki. Skupienie na przejrzystości i łatwości obsługi.">
+                            Streamlined medication tracking to ensure you never miss a dose. Focused on clarity and ease
+                            of use.
+                        </p>
+                        <div class="project-links">
+                            <span class="status" data-en="In Development" data-pl="W budowie">In Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title" data-en="The Philosophy" data-pl="Filozofia">The Philosophy</h2>
+                <p data-en="Minimalism isn't just about how things look—it's about how they work. I strive to strip away the noise and focus on the core problem an app is meant to solve."
+                    data-pl="Minimalizm to nie tylko wygląd – to sposób działania. Staram się usuwać zbędne elementy i skupiać na kluczowym problemie, który aplikacja ma rozwiązać.">
+                    Minimalism isn't just about how things look—it's about how they work. I strive to strip away the
+                    noise and focus on the core problem an app is meant to solve.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-en="&copy; 2026 cjdev-hash. Built with focus." data-pl="&copy; 2026 cjdev-hash. Stworzone z pasją.">
+            &copy; 2026 cjdev-hash. Built with focus.</p>
+        <div class="socials">
+            <a href="https://github.com/cjdev-hash">GitHub</a>
+            <a href="mailto:cjdevski@gmail.com" data-en="Contact" data-pl="Kontakt">Contact</a>
+        </div>
+    </footer>
+
+    <script>
+        const btnEn = document.getElementById('btn-en');
+        const btnPl = document.getElementById('btn-pl');
+        const body = document.body;
+
+        function setLanguage(lang) {
+            body.setAttribute('data-lang', lang);
+
+            // Switch active button
+            if (lang === 'en') {
+                btnEn.classList.add('active');
+                btnPl.classList.remove('active');
+            } else {
+                btnPl.classList.add('active');
+                btnEn.classList.remove('active');
+            }
+
+            // Update text content
+            document.querySelectorAll('[data-en]').forEach(el => {
+                el.innerText = el.getAttribute(`data-${lang}`);
+            });
+        }
+
+        btnEn.addEventListener('click', () => setLanguage('en'));
+        btnPl.addEventListener('click', () => setLanguage('pl'));
+    </script>
+</body>
+
+</html>
