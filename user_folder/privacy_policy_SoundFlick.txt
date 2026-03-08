@@ -1,0 +1,62 @@
+SoundFlick Privacy Policy
+
+
+Last Updated: January 14, 2026
+
+
+SoundFlick ("the App") is a free app that displays advertisements.
+
+
+DATA COLLECTION
+
+
+The App itself does not collect, store, or transmit any personal data 
+
+to external servers. All user preferences and imported sounds are 
+
+stored locally on your device only.
+
+
+ADVERTISING
+
+
+This app uses Google AdMob to display advertisements. AdMob may collect:
+
+- Device identifiers (Advertising ID)
+
+- Usage data for ad personalization
+
+
+You can learn more about Google's data practices at: 
+
+https://policies.google.com/privacy
+
+
+You can opt out of personalized advertising in your device settings 
+
+under Google > Ads > Opt out of Ads Personalization.
+
+
+PERMISSIONS
+
+
+The app uses the following permissions:
+
+- Vibration: For haptic feedback
+
+- Internet: To display advertisements
+
+- Foreground Service: To run gesture detection in background
+
+
+CONTACT
+
+
+For questions about this privacy policy, contact: [YOUR EMAIL]
+
+
+CHANGES
+
+
+We may update this policy occasionally. Changes will be posted on this page.
+

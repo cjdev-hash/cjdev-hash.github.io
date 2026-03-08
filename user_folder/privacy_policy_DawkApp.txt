@@ -1,0 +1,54 @@
+Polityka Prywatności aplikacji DawkApp
+1. Wstęp
+Niniejsza Polityka Prywatności określa zasady gromadzenia, przetwarzania i ochrony danych osobowych użytkowników aplikacji mobilnej DawkApp (zwanej dalej "Aplikacją"). Szanujemy Twoją prywatność i dbamy o bezpieczeństwo Twoich danych, w tym szczególnie wrażliwych danych dotyczących zdrowia.
+
+2. Administrator Danych
+Administratorem Twoich danych osobowych jest [Twoje Imię i Nazwisko lub Nazwa Twojej Firmy] z siedzibą w [Twój Adres/Miasto, można podać sam kraj/miasto jeśli to działalność nierejestrowana]. W sprawach związanych z prywatnością możesz skontaktować się pod adresem e-mail: [Twój E-mail kontaktowy].
+
+3. Jakie dane zbieramy i przetwarzamy?
+Aby Aplikacja mogła prawidłowo funkcjonować i chronić Cię przed błędnym dawkowaniem, przetwarzamy następujące informacje:
+
+Dane profilowe członków rodziny: imię (lub pseudonim), wiek, płeć oraz waga.
+
+Dane o zdrowiu i lekach (Dane Wrażliwe): historia przyjmowanych leków, wprowadzane dawki, harmonogramy dawkowania (Kalendarz dawek).
+
+Dane analityczne i techniczne: np. informacje o ewentualnych błędach aplikacji (crash logs), abyśmy mogli ją ulepszać (usuń ten punkt, jeśli nie podpinasz narzędzi takich jak np. Firebase Crashlytics).
+
+4. Gdzie przechowywane są Twoje dane?
+Wybierz odpowiednią opcję i usuń drugą:
+
+Opcja A (Tylko lokalnie - ZALECANE, jeśli nie masz serwera): Wszystkie wprowadzone przez Ciebie dane (profile, leki, waga) są zapisywane wyłącznie lokalnie w pamięci Twojego urządzenia. Nie wysyłamy tych danych na żadne zewnętrzne serwery i nie mamy do nich wglądu.
+
+Opcja B (Zapis w chmurze/Konto użytkownika): Twoje dane są bezpiecznie przesyłane i przechowywane na naszych serwerach, aby umożliwić synchronizację między urządzeniami. Dane są szyfrowane.
+
+5. Cel przetwarzania danych
+Gromadzimy Twoje dane wyłącznie w celu:
+
+Obliczania odpowiednich dawek leków na podstawie wagi i wieku użytkownika.
+
+Wykrywania i ostrzegania przed konfliktami lekowymi (np. podwójnym dawkowaniem tej samej substancji czynnej).
+
+Prowadzenia historii (Kalendarza dawek) dla poszczególnych członków rodziny.
+
+Obsługi konta Premium i odblokowywania dodatkowych funkcji (rozszerzona baza leków).
+
+6. Konta Premium i Płatności
+Aplikacja oferuje płatne konto Premium. Wszelkie płatności są procesowane bezpośrednio przez operatora sklepu (Google Play Store). Aplikacja DawkApp nie ma dostępu do Twoich danych płatniczych (takich jak numery kart kredytowych). W tym zakresie obowiązuje polityka prywatności firmy Google.
+
+7. Udostępnianie danych stronom trzecim
+Nie sprzedajemy i nie udostępniamy Twoich danych osobowych ani zdrowotnych celach marketingowych żadnym podmiotom trzecim. Dane mogą być przetwarzane przez podmioty zewnętrzne (np. Google Play Billing) wyłącznie w celu realizacji usług wewnątrz aplikacji.
+
+8. Twoje prawa (RODO)
+Masz pełne prawo do:
+
+Dostępu do swoich danych,
+
+Sprostowania lub usunięcia danych (wystarczy odinstalować aplikację lub usunąć profile z poziomu Aplikacji),
+
+Cofnięcia zgody na przetwarzanie danych w dowolnym momencie.
+
+9. Zmiany w Polityce Prywatności
+Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych zmianach poinformujemy Cię z odpowiednim wyprzedzeniem poprzez komunikat w Aplikacji.
+
+10. Kontakt
+W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności, prosimy o kontakt pod adresem: cjdevski@gmail.com.
