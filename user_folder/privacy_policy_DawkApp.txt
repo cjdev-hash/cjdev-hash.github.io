@@ -47,6 +47,8 @@ Sprostowania lub usunięcia danych (wystarczy odinstalować aplikację lub usun�
 
 Cofnięcia zgody na przetwarzanie danych w dowolnym momencie.
 
+Użytkownik ma prawo do usunięcia konta. Prośby o usunięcie konta i powiązanych danych można kierować na adres: cjdevski@gmail.com.
+
 9. Zmiany w Polityce Prywatności
 Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych zmianach poinformujemy Cię z odpowiednim wyprzedzeniem poprzez komunikat w Aplikacji.
 
