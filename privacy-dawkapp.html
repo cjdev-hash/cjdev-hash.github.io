@@ -71,95 +71,179 @@
     </style>
 </head>
 
-<body>
+<body data-lang="pl">
     <div class="background-mesh"></div>
 
     <header>
         <nav>
             <div class="logo">CJ.</div>
             <div class="nav-right">
+                <div class="lang-switcher">
+                    <button id="btn-en">EN</button>
+                    <span class="divider">/</span>
+                    <button id="btn-pl" class="active">PL</button>
+                </div>
                 <div class="links">
-                    <a href="index.html" class="back-link" style="margin-bottom: 0;">Powrót</a>
+                    <a href="index.html" class="back-link" style="margin-bottom: 0;" data-en="Back to Home"
+                        data-pl="Powrót">Powrót</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <main class="policy-container">
-        <a href="index.html" class="back-link">Powrót do strony głównej</a>
+        <a href="index.html" class="back-link" data-en="Back to Home" data-pl="Powrót do strony głównej">Powrót do
+            strony
+            głównej</a>
         <div class="policy-content">
-            <h1>Polityka Prywatności aplikacji DawkApp</h1>
+            <h1 data-en="DawkApp Privacy Policy" data-pl="Polityka Prywatności aplikacji DawkApp">Polityka Prywatności
+                aplikacji DawkApp</h1>
 
-            <h2>1. Wstęp</h2>
-            <p>Niniejsza Polityka Prywatności określa zasady gromadzenia, przetwarzania i ochrony danych osobowych
+            <h2 data-en="1. Introduction" data-pl="1. Wstęp">1. Wstęp</h2>
+            <p data-en="This Privacy Policy defines the rules for the collection, processing, and protection of personal data of users of the DawkApp mobile application (hereinafter referred to as the 'Application'). We respect your privacy and care about the security of your data, especially sensitive health data."
+                data-pl="Niniejsza Polityka Prywatności określa zasady gromadzenia, przetwarzania i ochrony danych osobowych użytkowników aplikacji mobilnej DawkApp (zwanej dalej 'Aplikacją'). Szanujemy Twoją prywatność i dbamy o bezpieczeństwo Twoich danych, w tym szczególnie wrażliwych danych dotyczących zdrowia.">
+                Niniejsza Polityka Prywatności określa zasady gromadzenia, przetwarzania i ochrony danych osobowych
                 użytkowników aplikacji mobilnej DawkApp (zwanej dalej "Aplikacją"). Szanujemy Twoją prywatność i dbamy o
                 bezpieczeństwo Twoich danych, w tym szczególnie wrażliwych danych dotyczących zdrowia.</p>
 
-            <h2>2. Administrator Danych</h2>
-            <p>Administratorem Twoich danych osobowych jest <strong>[Twoje Imię i Nazwisko / Nazwa Firmy]</strong>. W
-                sprawach związanych z prywatnością możesz skontaktować się pod adresem e-mail: <a
+            <h2 data-en="2. Data Administrator" data-pl="2. Administrator Danych">2. Administrator Danych</h2>
+            <p><span data-en="The administrator of your personal data is"
+                    data-pl="Administratorem Twoich danych osobowych jest">Administratorem Twoich danych osobowych
+                    jest</span> <strong>[Twoje Imię i Nazwisko / Nazwa Firmy]</strong>. <span
+                    data-en="In matters related to privacy, you can contact us at:"
+                    data-pl="W sprawach związanych z prywatnością możesz skontaktować się pod adresem e-mail:">W
+                    sprawach
+                    związanych z prywatnością możesz skontaktować się pod adresem e-mail:</span> <a
                     href="mailto:cjdevski@gmail.com" style="color: var(--accent);">cjdevski@gmail.com</a>.</p>
 
-            <h2>3. Jakie dane zbieramy i przetwarzamy?</h2>
-            <p>Aby Aplikacja mogła prawidłowo funkcjonować i chronić Cię przed błędnym dawkowaniem, przetwarzamy
+            <h2 data-en="3. What data do we collect and process?" data-pl="3. Jakie dane zbieramy i przetwarzamy?">3.
+                Jakie
+                dane zbieramy i przetwarzamy?</h2>
+            <p data-en="To function correctly and protect you from incorrect dosing, we process the following information:"
+                data-pl="Aby Aplikacja mogła prawidłowo funkcjonować i chronić Cię przed błędnym dawkowaniem, przetwarzamy następujące informacje:">
+                Aby Aplikacja mogła prawidłowo funkcjonować i chronić Cię przed błędnym dawkowaniem, przetwarzamy
                 następujące informacje:</p>
             <ul>
-                <li><strong>Dane profilowe członków rodziny:</strong> imię (lub pseudonim), wiek, płeć oraz waga.</li>
-                <li><strong>Dane o zdrowiu i lekach (Dane Wrażliwe):</strong> historia przyjmowanych leków, wprowadzane
-                    dawki, harmonogramy dawkowania (Kalendarz dawek).</li>
+                <li><strong data-en="Family member profile data:" data-pl="Dane profilowe członków rodziny:">Dane
+                        profilowe członków rodziny:</strong> <span data-en="name (or alias), age, gender, and weight."
+                        data-pl="imię (lub pseudonim), wiek, płeć oraz waga.">imię (lub pseudonim), wiek, płeć oraz
+                        waga.</span></li>
+                <li><strong data-en="Health and medication data (Sensitive Data):"
+                        data-pl="Dane o zdrowiu i lekach (Dane Wrażliwe):">Dane o zdrowiu i lekach (Dane
+                        Wrażliwe):</strong> <span
+                        data-en="medication history, doses entered, dosing schedules (Dose Calendar)."
+                        data-pl="historia przyjmowanych leków, wprowadzane dawki, harmonogramy dawkowania (Kalendarz dawek).">historia
+                        przyjmowanych leków, wprowadzane dawki, harmonogramy dawkowania (Kalendarz dawek).</span></li>
             </ul>
 
-            <h2>4. Gdzie przechowywane są Twoje dane?</h2>
-            <p>Wszystkie wprowadzone przez Ciebie dane (profile, leki, waga) są zapisywane <strong>wyłącznie lokalnie
+            <h2 data-en="4. Where is your data stored?" data-pl="4. Gdzie przechowywane są Twoje dane?">4. Gdzie
+                przechowywane są Twoje dane?</h2>
+            <p data-en="All data entered by you (profiles, medications, weight) is saved exclusively locally on your device's memory. We do not send this data to any external servers and we have no access to it."
+                data-pl="Wszystkie wprowadzone przez Ciebie dane (profile, leki, waga) są zapisywane wyłącznie lokalnie w pamięci Twojego urządzenia. Nie wysyłamy tych danych na żadne zewnętrzne serwery i nie mamy do nich wglądu.">
+                Wszystkie wprowadzone przez Ciebie dane (profile, leki, waga) są zapisywane <strong>wyłącznie lokalnie
                     w pamięci Twojego urządzenia</strong>. Nie wysyłamy tych danych na żadne zewnętrzne serwery i nie
                 mamy do nich wglądu.</p>
 
-            <h2>5. Cel przetwarzania danych</h2>
-            <p>Gromadzimy Twoje dane wyłącznie w celu:</p>
+            <h2 data-en="5. Purpose of processing" data-pl="5. Cel przetwarzania danych">5. Cel przetwarzania danych
+            </h2>
+            <p data-en="We collect your data solely to:" data-pl="Gromadzimy Twoje dane wyłącznie w celu:">Gromadzimy
+                Twoje dane wyłącznie w celu:</p>
             <ul>
-                <li>Obliczania odpowiednich dawek leków na podstawie wagi i wieku użytkownika.</li>
-                <li>Wykrywania i ostrzegania przed konfliktami lekowymi.</li>
-                <li>Prowadzenia historii (Kalendarza dawek) dla poszczególnych członków rodziny.</li>
-                <li>Obsługi konta Premium i odblokowywania dodatkowych funkcji.</li>
+                <li data-en="Calculate appropriate medication doses based on weight and age."
+                    data-pl="Obliczania odpowiednich dawek leków na podstawie wagi i wieku użytkownika.">Obliczania
+                    odpowiednich dawek leków na podstawie wagi i wieku użytkownika.</li>
+                <li data-en="Detect and warn against drug conflicts."
+                    data-pl="Wykrywania i ostrzegania przed konfliktami lekowymi.">Wykrywania i ostrzegania przed
+                    konfliktami lekowymi.</li>
+                <li data-en="Maintain history (Dose Calendar) for family members."
+                    data-pl="Prowadzenia historii (Kalendarza dawek) dla poszczególnych członków rodziny.">Prowadzenia
+                    historii (Kalendarza dawek) dla poszczególnych członków rodziny.</li>
+                <li data-en="Support Premium accounts and unlock additional features."
+                    data-pl="Obsługi konta Premium i odblokowywania dodatkowych funkcji.">Obsługi konta Premium i
+                    odblokowywania dodatkowych funkcji.</li>
             </ul>
 
-            <h2>6. Konta Premium i Płatności</h2>
-            <p>Aplikacja oferuje płatne konto Premium. Wszelkie płatności są procesowane bezpośrednio przez operatora
+            <h2 data-en="6. Premium Accounts and Payments" data-pl="6. Konta Premium i Płatności">6. Konta Premium i
+                Płatności</h2>
+            <p data-en="The app offers a paid Premium account. All payments are processed directly by the store operator (Google Play Store). DawkApp does not have access to your payment data. In this regard, Google's privacy policy applies."
+                data-pl="Aplikacja oferuje płatne konto Premium. Wszelkie płatności są procesowane bezpośrednio przez operatora sklepu (Google Play Store). Aplikacja DawkApp nie ma dostępu do Twoich danych płatniczych. W tym zakresie obowiązuje polityka prywatności firmy Google.">
+                Aplikacja oferuje płatne konto Premium. Wszelkie płatności są procesowane bezpośrednio przez operatora
                 sklepu (Google Play Store). Aplikacja DawkApp nie ma dostępu do Twoich danych płatniczych. W tym
                 zakresie
                 obowiązuje polityka prywatności firmy Google.</p>
 
-            <h2>7. Udostępnianie danych stronom trzecim</h2>
-            <p>Nie sprzedajemy i nie udostępniamy Twoich danych osobowych ani zdrowotnych celach marketingowych żadnym
+            <h2 data-en="7. Sharing data with third parties" data-pl="7. Udostępnianie danych stronom trzecim">7.
+                Udostępnianie danych stronom trzecim</h2>
+            <p data-en="We do not sell or share your personal or health data for marketing purposes to any third parties. Data may be processed by external entities solely to provide services within the application."
+                data-pl="Nie sprzedajemy i nie udostępniamy Twoich danych osobowych ani zdrowotnych celach marketingowych żadnym podmiotom trzecim. Dane mogą być przetwarzane przez podmioty zewnętrzne wyłącznie w celu realizacji usług wewnątrz aplikacji.">
+                Nie sprzedajemy i nie udostępniamy Twoich danych osobowych ani zdrowotnych celach marketingowych żadnym
                 podmiotom trzecim. Dane mogą być przetwarzane przez podmioty zewnętrzne wyłącznie w celu realizacji
                 usług wewnątrz aplikacji.</p>
 
-            <h2>8. Twoje prawa (RODO)</h2>
-            <p>Masz pełne prawo do:</p>
+            <h2 data-en="8. Your rights (GDPR)" data-pl="8. Twoje prawa (RODO)">8. Twoje prawa (RODO)</h2>
+            <p data-en="You have the full right to:" data-pl="Masz pełne prawo do:">Masz pełne prawo do:</p>
             <ul>
-                <li>Dostępu do swoich danych,</li>
-                <li>Sprostowania lub usunięcia danych (wystarczy odinstalować aplikację lub usunąć profile z poziomu
+                <li data-en="Access your data," data-pl="Dostępu do swoich danych,">Dostępu do swoich danych,</li>
+                <li data-en="Rectification or deletion (simply uninstall the app or remove profiles),"
+                    data-pl="Sprostowania lub usunięcia danych (wystarczy odinstalować aplikację lub usunąć profile z poziomu Aplikacji),">
+                    Sprostowania lub usunięcia danych (wystarczy odinstalować aplikację lub usunąć profile z poziomu
                     Aplikacji),</li>
-                <li>Cofnięcia zgody na przetwarzanie danych w dowolnym momencie.</li>
+                <li data-en="Withdrawal of consent for processing at any time."
+                    data-pl="Cofnięcia zgody na przetwarzanie danych w dowolnym momencie.">Cofnięcia zgody na
+                    przetwarzanie danych w dowolnym momencie.</li>
             </ul>
 
-            <h2>9. Zmiany w Polityce Prywatności</h2>
-            <p>Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych
+            <h2 data-en="9. Changes to the Privacy Policy" data-pl="9. Zmiany w Polityce Prywatności">9. Zmiany w
+                Polityce
+                Prywatności</h2>
+            <p data-en="We reserve the right to change this Privacy Policy. We will inform you of significant changes via the App."
+                data-pl="Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych zmianach poinformujemy Cię poprzez komunikat w Aplikacji.">
+                Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych
                 zmianach poinformujemy Cię poprzez komunikat w Aplikacji.</p>
 
-            <h2>10. Kontakt</h2>
-            <p>W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności, prosimy o kontakt pod adresem: <a
-                    href="mailto:cjdevski@gmail.com" style="color: var(--accent);">cjdevski@gmail.com</a>.</p>
+            <h2 data-en="10. Contact" data-pl="10. Kontakt">10. Kontakt</h2>
+            <p><span data-en="In case of any questions regarding this policy, please contact us at:"
+                    data-pl="W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności, prosimy o kontakt pod adresem:">W
+                    przypadku jakichkolwiek pytań dotyczących tej polityki prywatności, prosimy o kontakt pod
+                    adresem:</span>
+                <a href="mailto:cjdevski@gmail.com" style="color: var(--accent);">cjdevski@gmail.com</a>.
+            </p>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 cjdev-hash. Stworzone z pasją.</p>
+        <p data-en="&copy; 2026 cjdev-hash. Built with focus." data-pl="&copy; 2026 cjdev-hash. Stworzone z pasją.">
+            &copy; 2026 cjdev-hash. Stworzone z pasją.</p>
         <div class="socials">
             <a href="https://github.com/cjdev-hash">GitHub</a>
-            <a href="mailto:cjdevski@gmail.com">Kontakt</a>
+            <a href="mailto:cjdevski@gmail.com" data-en="Contact" data-pl="Kontakt">Kontakt</a>
         </div>
     </footer>
+
+    <script>
+        const btnEn = document.getElementById('btn-en');
+        const btnPl = document.getElementById('btn-pl');
+        const body = document.body;
+
+        function setLanguage(lang) {
+            body.setAttribute('data-lang', lang);
+
+            if (lang === 'en') {
+                btnEn.classList.add('active');
+                btnPl.classList.remove('active');
+            } else {
+                btnPl.classList.add('active');
+                btnEn.classList.remove('active');
+            }
+
+            document.querySelectorAll('[data-en]').forEach(el => {
+                el.innerText = el.getAttribute(`data-${lang}`);
+            });
+        }
+
+        btnEn.addEventListener('click', () => setLanguage('en'));
+        btnPl.addEventListener('click', () => setLanguage('pl'));
+    </script>
 </body>
 
 </html>

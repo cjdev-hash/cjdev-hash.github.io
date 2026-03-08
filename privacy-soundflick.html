@@ -78,67 +78,126 @@
     </style>
 </head>
 
-<body>
+<body data-lang="en">
     <div class="background-mesh"></div>
 
     <header>
         <nav>
             <div class="logo">CJ.</div>
             <div class="nav-right">
+                <div class="lang-switcher">
+                    <button id="btn-en" class="active">EN</button>
+                    <span class="divider">/</span>
+                    <button id="btn-pl">PL</button>
+                </div>
                 <div class="links">
-                    <a href="index.html" class="back-link" style="margin-bottom: 0;">Back to Home</a>
+                    <a href="index.html" class="back-link" style="margin-bottom: 0;" data-en="Back to Home"
+                        data-pl="Powrót">Back to Home</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <main class="policy-container">
-        <a href="index.html" class="back-link">Back to Home</a>
+        <a href="index.html" class="back-link" data-en="Back to Home" data-pl="Powrót do strony głównej">Back to
+            Home</a>
         <div class="policy-content">
-            <h1>SoundFlick Privacy Policy</h1>
-            <span class="last-updated">Last Updated: January 14, 2026</span>
+            <h1 data-en="SoundFlick Privacy Policy" data-pl="Polityka Prywatności SoundFlick">SoundFlick Privacy Policy
+            </h1>
+            <span class="last-updated" data-en="Last Updated: January 14, 2026"
+                data-pl="Ostatnia aktualizacja: 14 stycznia 2026">Last Updated: January 14, 2026</span>
 
-            <p>SoundFlick ("the App") is a free app that displays advertisements.</p>
+            <p data-en="SoundFlick ('the App') is a free app that displays advertisements."
+                data-pl="SoundFlick ('Aplikacja') to bezpłatna aplikacja wyświetlająca reklamy.">SoundFlick ("the App")
+                is a free app that displays advertisements.</p>
 
-            <h2>DATA COLLECTION</h2>
-            <p>The App itself does not collect, store, or transmit any personal data to external servers. All user
+            <h2 data-en="DATA COLLECTION" data-pl="KOLEKCJA DANYCH">DATA COLLECTION</h2>
+            <p data-en="The App itself does not collect, store, or transmit any personal data to external servers. All user preferences and imported sounds are stored locally on your device only."
+                data-pl="Sama Aplikacja nie zbiera, nie przechowuje ani nie przesyła żadnych danych osobowych na zewnętrzne serwery. Wszystkie preferencje użytkownika i zaimportowane dźwięki są przechowywane wyłącznie lokalnie na Twoim urządzeniu.">
+                The App itself does not collect, store, or transmit any personal data to external servers. All user
                 preferences and imported sounds are stored locally on your device only.</p>
 
-            <h2>ADVERTISING</h2>
-            <p>This app uses Google AdMob to display advertisements. AdMob may collect:</p>
+            <h2 data-en="ADVERTISING" data-pl="REKLAMY">ADVERTISING</h2>
+            <p data-en="This app uses Google AdMob to display advertisements. AdMob may collect:"
+                data-pl="Ta aplikacja korzysta z Google AdMob do wyświetlania reklam. AdMob może zbierać:">This app uses
+                Google AdMob to display advertisements. AdMob may collect:</p>
             <ul>
-                <li>Device identifiers (Advertising ID)</li>
-                <li>Usage data for ad personalization</li>
+                <li data-en="Device identifiers (Advertising ID)" data-pl="Identyfikatory urządzeń (Advertising ID)">
+                    Device identifiers (Advertising ID)</li>
+                <li data-en="Usage data for ad personalization"
+                    data-pl="Dane o użytkowaniu w celu personalizacji reklam">
+                    Usage data for ad personalization</li>
             </ul>
-            <p>You can learn more about Google's data practices at: <a href="https://policies.google.com/privacy"
-                    target="_blank" style="color: var(--accent);">https://policies.google.com/privacy</a></p>
-            <p>You can opt out of personalized advertising in your device settings under Google > Ads > Opt out of Ads
+            <p><span data-en="You can learn more about Google's data practices at:"
+                    data-pl="Możesz dowiedzieć się więcej o praktykach Google pod adresem:">You can learn more about
+                    Google's data practices at:</span> <a href="https://policies.google.com/privacy" target="_blank"
+                    style="color: var(--accent);">https://policies.google.com/privacy</a></p>
+            <p data-en="You can opt out of personalized advertising in your device settings under Google > Ads > Opt out of Ads Personalization."
+                data-pl="Możesz zrezygnować z personalizacji reklam w ustawieniach urządzenia w sekcji Google > Reklamy > Rezygnacja z personalizacji reklam.">
+                You can opt out of personalized advertising in your device settings under Google > Ads > Opt out of Ads
                 Personalization.</p>
 
-            <h2>PERMISSIONS</h2>
-            <p>The app uses the following permissions:</p>
+            <h2 data-en="PERMISSIONS" data-pl="UPRAWNIENIA">PERMISSIONS</h2>
+            <p data-en="The app uses the following permissions:"
+                data-pl="Aplikacja korzysta z następujących uprawnień:">
+                The app uses the following permissions:</p>
             <ul>
-                <li><strong>Vibration:</strong> For haptic feedback</li>
-                <li><strong>Internet:</strong> To display advertisements</li>
-                <li><strong>Foreground Service:</strong> To run gesture detection in background</li>
+                <li><strong data-en="Vibration:" data-pl="Wibracje:">Vibration:</strong> <span
+                        data-en="For haptic feedback" data-pl="Dla sygnałów haptycznych">For haptic feedback</span></li>
+                <li><strong data-en="Internet:" data-pl="Internet:">Internet:</strong> <span
+                        data-en="To display advertisements" data-pl="Do wyświetlania reklam">To display
+                        advertisements</span></li>
+                <li><strong data-en="Foreground Service:" data-pl="Usługa na pierwszym planie:">Foreground
+                        Service:</strong> <span data-en="To run gesture detection in background"
+                        data-pl="Do wykrywania gestów w tle">To run gesture detection in background</span></li>
             </ul>
 
-            <h2>CONTACT</h2>
-            <p>For questions about this privacy policy, contact: <a href="mailto:cjdevski@gmail.com"
+            <h2 data-en="CONTACT" data-pl="KONTAK">CONTACT</h2>
+            <p><span data-en="For questions about this privacy policy, contact:"
+                    data-pl="W przypadku pytań dotyczących tej polityki prywatności prosimy o kontakt pod adresem:">For
+                    questions about this privacy policy, contact:</span> <a href="mailto:cjdevski@gmail.com"
                     style="color: var(--accent);">cjdevski@gmail.com</a></p>
 
-            <h2>CHANGES</h2>
-            <p>We may update this policy occasionally. Changes will be posted on this page.</p>
+            <h2 data-en="CHANGES" data-pl="ZMIANY">CHANGES</h2>
+            <p data-en="We may update this policy occasionally. Changes will be posted on this page."
+                data-pl="Możemy sporadycznie aktualizować tę politykę. Zmiany będą publikowane na tej stronie.">We may
+                update this policy occasionally. Changes will be posted on this page.</p>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 cjdev-hash. Built with focus.</p>
+        <p data-en="&copy; 2026 cjdev-hash. Built with focus." data-pl="&copy; 2026 cjdev-hash. Stworzone z pasją.">
+            &copy; 2026 cjdev-hash. Built with focus.</p>
         <div class="socials">
             <a href="https://github.com/cjdev-hash">GitHub</a>
-            <a href="mailto:cjdevski@gmail.com">Contact</a>
+            <a href="mailto:cjdevski@gmail.com" data-en="Contact" data-pl="Kontakt">Contact</a>
         </div>
     </footer>
+
+    <script>
+        const btnEn = document.getElementById('btn-en');
+        const btnPl = document.getElementById('btn-pl');
+        const body = document.body;
+
+        function setLanguage(lang) {
+            body.setAttribute('data-lang', lang);
+
+            if (lang === 'en') {
+                btnEn.classList.add('active');
+                btnPl.classList.remove('active');
+            } else {
+                btnPl.classList.add('active');
+                btnEn.classList.remove('active');
+            }
+
+            document.querySelectorAll('[data-en]').forEach(el => {
+                el.innerText = el.getAttribute(`data-${lang}`);
+            });
+        }
+
+        btnEn.addEventListener('click', () => setLanguage('en'));
+        btnPl.addEventListener('click', () => setLanguage('pl'));
+    </script>
 </body>
 
 </html>
